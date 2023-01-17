@@ -28,11 +28,13 @@
 
 ;;; Code:
 
+;;;###autoload
 (defun show-will-on ()
   "Set up a buffer so Will can read it."
   (interactive)
   (text-scale-set 5))
 
+;;;###autoload
 (defun show-will-off ()
   "Set up a buffer I can read it."
   (interactive)
