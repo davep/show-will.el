@@ -2,7 +2,7 @@
 ;; Copyright 2023 by Dave Pearson <davep@davep.org>
 
 ;; Author: Dave Pearson <davep@davep.org>
-;; Version: 0.01
+;; Version: 0.02
 ;; Keywords: convenience
 ;; URL: https://github.com/davep/show-will.el
 ;; Package-Requires: ((emacs "24"))
@@ -32,7 +32,7 @@
 (defun show-will-on ()
   "Set up a buffer so Will can read it."
   (interactive)
-  (text-scale-set 5))
+  (text-scale-set 3))
 
 ;;;###autoload
 (defun show-will-off ()
